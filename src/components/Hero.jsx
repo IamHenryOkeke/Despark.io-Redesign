@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <div className='bg-[url("../assets/images/Hero Image Mobile.png")] flex flex-col items-center justify-center gap-6 text-white py-10 font-semibold'>
+    <div className='bg-[url("../assets/images/Hero Image Mobile.png")] flex flex-col items-center justify-center gap-6 text-white py-10 lg:py-60 font-semibold'>
         <h1 className='text-center text-4xl lg:text-[65px]'>
             Better <span className='text-indigo-1000'>Web3</span> UX Research
         </h1>
