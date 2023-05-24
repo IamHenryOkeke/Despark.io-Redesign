@@ -4,7 +4,7 @@ const Hero = () => {
         <h1 className='text-center text-4xl lg:text-[65px]'>
             Better <span className='text-indigo-1000'>Web3</span> UX Research
         </h1>
-        <p className='text-[#ffffff80] text-center'>
+        <p className='text-[#ffffff80] text-center md:text-[18px] lg:text-[20px]'>
             Despark.io enables web3 companies to get feedback from their ideal users. Powered by in-depth blockchain data.
         </p>
         <button className="bg-indigo-1000 px-6 py-4 rounded">
