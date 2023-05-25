@@ -4,6 +4,5 @@ import svgr from "vite-plugin-svgr";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base : "/Despark.io-Redesign/",
-  plugins: [react(), svgr()],
+   plugins: [react(), svgr()],
 })
