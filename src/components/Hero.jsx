@@ -1,6 +1,8 @@
+import BgImage from "../assets/images/HeroLarge.png"
+
 const Hero = () => {
   return (
-    <div className='bg-[url("../assets/images/Hero Image Mobile.png")] flex flex-col items-center justify-center gap-6 text-white py-10 lg:py-60 font-semibold'>
+    <div id="hero-section" className="flex md:text-center bg-hero-large flex-col items-center justify-center gap-6 text-white h-[550px] lg:h-[1000px] lg:py-60 font-semibold">
         <h1 className='text-center text-4xl lg:text-[65px]'>
             Better <span className='text-indigo-1000'>Web3</span> UX Research
         </h1>
