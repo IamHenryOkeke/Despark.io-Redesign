@@ -3,7 +3,7 @@ import RevolutionCards from "./Cards/RevolutionCards";
 
 const Revolution = () => {
   return (
-    <div className=" bg-[#1B191D] py-16 px-8 rounded-[40px] mb-28 lg:mb-72">
+    <div className=" bg-[#1B191D] py-16 px-8 rounded-[40px] mb-28">
       <div className="flex items-center lg:gap-10 justify-center mb-20">
         <Icon/>
         <h1 className="bg-gradient-to-r from-[#FFFFFF] to-[#8B1FF4] text-transparent bg-clip-text font-bold text-2xl md:text-4xl text-center mx-8">Web3 requires a UX Revolution</h1>
