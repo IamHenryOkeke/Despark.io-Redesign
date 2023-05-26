@@ -1,5 +1,3 @@
-import BgImage from "../assets/images/HeroLarge.png"
-
 const Hero = () => {
   return (
     <div id="hero-section" className="flex md:text-center bg-hero-large flex-col items-center justify-center gap-6 text-white h-[550px] lg:h-[1000px] lg:py-60 font-semibold">

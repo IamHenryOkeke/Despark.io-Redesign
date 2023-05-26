@@ -4,13 +4,16 @@ import { useState } from "react";
 
 const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
+  const handleClick = () => {
+    setNavbar(!navbar)
+  }
   return (
     <nav className="mx-4 md:mx-8 lg:mx-32 font-body text-white">
         <div className="flex pt-10 justify-between items-center">
             <h1 className="font-bold text-2xl">
                 <span className="text-white">de</span><span className="text-indigo-1000">spark</span>
             </h1>
-            <div onClick={() => setNavbar(!navbar)} className='w-6 h-6 cursor-pointer lg:hidden md:w-8 md:h-8 '>
+            <div onClick={() => handleClick()} className='w-6 h-6 cursor-pointer lg:hidden md:w-8 md:h-8 '>
                 {navbar ? <MenuCloseIcon className = "fill-white"/> : <MenuOpenIcon/>}
             </div>
             <ul className="hidden lg:flex lg:gap-10 w-full lg:w-auto text-[20px]">
@@ -41,20 +44,20 @@ const Navbar = () => {
                 </button>
             </div>
         </div>
-        <div className={`${navbar ? "flex" : "hidden"} lg:hidden py-4 flex-col items-center gap-4 mt-3 rounded-xl`}>
-            <ul className='flex flex-col items-center gap-5'>
-                <li className="navbar-item">
-                    <a href="">
+        <div className={`${navbar ? "flex" : "hidden"} bg-[#ffffff80] lg:hidden py-4 flex-col items-center gap-4 mt-3 rounded-xl transition-all ease-in duration-500`}>
+            <ul id="navlist" className='flex flex-col items-center gap-5'>
+                <li>
+                    <a href="" className="hover:text-[#ffffff80]">
                         How it works
                     </a>
                 </li>
-                <li className="navbar-item">
-                    <a href="">
+                <li>
+                    <a href="" className="hover:text-[#ffffff80]">
                         About
                     </a>
                 </li>
-                <li className="navbar-item">
-                    <a href="">
+                <li>
+                    <a href="" className="hover:text-[#ffffff80]">
                         Blog
                     </a>
                 </li>
