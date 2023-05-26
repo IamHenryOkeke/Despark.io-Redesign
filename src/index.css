@@ -2,3 +2,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#hero-section{
+    background: url("./assets/images/HeroSmall.png") no-repeat center;
+}
+
+@media (min-width: 768px){   
+    #hero-section{
+        background: url("./assets/images/HeroSmall.png") no-repeat cover;
+    }
+}
+
+@media (min-width: 1024px){
+    #hero-section{
+        background: url("./assets/images/HeroLarge.png") no-repeat center;
+
+    }
+}
